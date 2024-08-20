@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding: 0;
+    background-image: url("/css/Nature-Photography-105.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: black;
+    padding: 20px;
+   
+}
+.lbl{
+    text-align: center;
+}
+.label{
+    text-align: center;
+    color: black;
+}
+.box{
+    height: 300px;
+    width: 30%;
+    background-color:white;
+    margin: 210px;
+    margin-left: 450px;
+}
+.barimage{
+    text-align: center;
+}
+
+@media(max-width:900px){
+
+    .barimage{
+        height:50px;
+        width:30px;
+    }
+    .box{
+        text-align: center;
+        margin: 210px;
+        margin-left: 250px;
+    }
+
+}
+
+@media(max-width:600px){
+    h1{
+        font-size: small;
+    }
+    .label{
+        font-size: small;
+    }
+    .input{
+        width: 100px;
+    }
+}
+

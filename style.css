@@ -57,3 +57,11 @@ h1{
     }
 }
 
+@media(max-width:400px){
+    .box{
+        margin-left: 150px;
+        margin: 210px;
+    }
+    
+}
+
